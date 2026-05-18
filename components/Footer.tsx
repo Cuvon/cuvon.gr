@@ -60,7 +60,7 @@ export default function Footer() {
             <Link href={logoHref} className="inline-flex mb-4">
               <Image src="/logo-white.svg" alt="Cuvon" width={105} height={22} />
             </Link>
-            <p className="text-sm text-white/54 leading-relaxed max-w-[260px]">
+            <p className="text-sm text-white/75 leading-relaxed max-w-[260px]">
               {t.tagline}
               <br /><br />
               {t.sub}
@@ -75,7 +75,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-2.5">
               {t.company.links.map(({ href, label }) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-white/54 hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-white/75 hover:text-white transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -91,7 +91,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-2.5">
               {t.work.links.map(({ href, label }) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-white/54 hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-white/75 hover:text-white transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -102,8 +102,8 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-white/8 pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-          <p className="text-[0.8rem] text-white/38">{t.copyright}</p>
-          <p className="text-[0.8rem] text-white/38">
+          <p className="text-[0.8rem] text-white/60">{t.copyright}</p>
+          <p className="text-[0.8rem] text-white/60">
             <a href="mailto:info@cuvon.gr" className="hover:text-white/70 transition-colors">info@cuvon.gr</a>
             <span className="mx-2 opacity-40">·</span>
             {t.bottomRight}
