@@ -4,6 +4,7 @@
 
 import { defineConfig } from 'sanity'
 import { structureTool } from 'sanity/structure'
+import { visionTool }    from '@sanity/vision'
 import { schemaTypes }   from './schemas'
 
 export default defineConfig({
@@ -42,6 +43,8 @@ export default defineConfig({
               ),
           ]),
     }),
+    // Vision — GROQ query explorer (development only)
+    visionTool(),
   ],
 
   schema: { types: schemaTypes },

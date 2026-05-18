@@ -9,6 +9,7 @@ export const siteSettingsSchema = defineType({
   title: 'Site Settings',
   type: 'document',
   // Singleton — hide "create new" button in studio
+  __experimental_actions: ['update', 'publish'],
   fields: [
     defineField({
       name: 'contactEmail',
