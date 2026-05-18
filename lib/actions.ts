@@ -59,7 +59,7 @@ export async function submitContact(fd: FormData): Promise<ContactResult> {
     await resend.emails.send({
       from:    'Cuvon Website <noreply@cuvon.gr>',
       to:      [to],
-      replyTo: email,
+      reply_to: email,
       subject: `New enquiry from ${firstName} ${lastName} — ${company}`,
       text: [
         `Name:    ${firstName} ${lastName}`,
