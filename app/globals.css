@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base layer ──────────────────────────────────────────────────────────
+   Global resets and defaults.
+   All brand decisions are in tailwind.config.ts.
+   ───────────────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    @apply scroll-smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply text-body bg-white font-sans;
+    color: #2E3A4A;
+  }
+
+  /* Remove default list styles */
+  ul, ol { list-style: none; }
+
+  /* Image defaults */
+  img, video { @apply block max-w-full; }
+}
+
+/* ── Component layer ─────────────────────────────────────────────────────
+   Reusable class utilities extracted from repetitive Tailwind patterns.
+   ───────────────────────────────────────────────────────────────────── */
+@layer components {
+  /* Site-width container — 1200px max, horizontal padding */
+  .site-container {
+    @apply w-full max-w-site mx-auto px-6 lg:px-10;
+  }
+
+  /* Section vertical padding */
+  .section-pad {
+    @apply py-section;
+  }
+
+  /* Standard section gap between label and content */
+  .section-header {
+    @apply mb-14;
+  }
+}

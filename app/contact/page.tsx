@@ -1,0 +1,89 @@
+import type { Metadata } from 'next'
+import PageHeader from '@/components/PageHeader'
+
+export const metadata: Metadata = {
+  title: 'Contact',
+  description:
+    'Contact Cuvon for healthcare product distribution enquiries in Greece.',
+  alternates: { canonical: '/contact' },
+}
+
+// Contact email addresses by audience
+const emails = [
+  { label: 'Manufacturers & distribution partners', address: 'partners@cuvon.gr' },
+  { label: 'Pharmacies & existing customers',       address: 'customers@cuvon.gr' },
+  { label: 'General enquiries',                     address: 'info@cuvon.gr' },
+]
+
+export default function ContactPage() {
+  return (
+    <>
+      <PageHeader
+        label="Contact"
+        title="Tell us what you need."
+        lead="If there is a fit, we move fast. We will respond with a direct, specific answer."
+      />
+
+      <section className="bg-white section-pad">
+        <div className="site-container">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-start">
+
+            {/* Contact details — 2/5 */}
+            <div className="lg:col-span-2">
+              <h2 className="text-[1.375rem] font-bold text-deep-blue mb-9">Direct contact.</h2>
+
+              {/* Email by audience */}
+              <div className="flex flex-col gap-7 mb-10">
+                {emails.map(({ label, address }) => (
+                  <div key={address}>
+                    <p className="text-[0.75rem] font-bold tracking-[0.1em] uppercase text-soft-teal mb-1.5">
+                      {label}
+                    </p>
+                    <a
+                      href={`mailto:${address}`}
+                      className="text-[1rem] font-medium text-deep-blue hover:text-slate-blue transition-colors"
+                    >
+                      {address}
+                    </a>
+                  </div>
+                ))}
+              </div>
+
+              {/* Address */}
+              <div className="mb-10">
+                <p className="text-[0.75rem] font-bold tracking-[0.1em] uppercase text-soft-teal mb-1.5">Address</p>
+                <a
+                  href="https://maps.google.com/?q=Vasilissis+Olgas+24,+Marousi+151+22,+Greece"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[1rem] font-medium text-deep-blue hover:text-slate-blue transition-colors leading-[1.6]"
+                >
+                  Vasilissis Olgas 24<br />
+                  Marousi 151 22
+                </a>
+              </div>
+
+            </div>
+
+            {/* Map — 3/5 */}
+            <div className="lg:col-span-3">
+              <div className="rounded-brand overflow-hidden" style={{ aspectRatio: '4/3', minHeight: '320px' }}>
+                <iframe
+                  src="https://maps.google.com/maps?q=Vasilissis+Olgas+24,+Marousi+151+22,+Greece&output=embed&z=15"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, display: 'block', width: '100%', height: '100%', minHeight: '320px' }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Cuvon office location — Vasilissis Olgas 24, Marousi"
+                />
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
