@@ -90,7 +90,7 @@ export default function HomePage() {
             <h1 className="text-display text-white mb-7 leading-[1.05]">
               Fast, reliable healthcare product distribution for the Greek market.
             </h1>
-            <p className="text-lead text-white/72 max-w-[520px] leading-[1.65] mb-11">
+            <p className="text-lead text-white/90 max-w-[520px] leading-[1.65] mb-11">
               Cuvon brings high-quality treatments to Greece. We move fast, keep supply consistent, and build partnerships that work.
             </p>
             <div className="flex flex-wrap items-center gap-6">
@@ -102,7 +102,7 @@ export default function HomePage() {
               </Link>
               <Link
                 href="/about"
-                className="inline-flex text-[0.9375rem] font-medium text-white/82 border-b border-white/30 pb-0.5 hover:text-white hover:border-white transition-colors"
+                className="inline-flex text-[0.9375rem] font-medium text-white/90 border-b border-white/30 pb-0.5 hover:text-white hover:border-white transition-colors"
               >
                 About Cuvon
               </Link>
@@ -158,7 +158,7 @@ export default function HomePage() {
           <div className="section-header">
             <SectionLabel>Operations &amp; Quality</SectionLabel>
             <h2 className="text-h2 text-white mt-5 mb-4">Supply reliability is the product.</h2>
-            <p className="text-lead text-white/65 max-w-[520px] leading-[1.65]">
+            <p className="text-lead text-white/85 max-w-[520px] leading-[1.65]">
               Quality and availability are operational facts — built into how Cuvon runs.
             </p>
           </div>
@@ -169,7 +169,7 @@ export default function HomePage() {
           </div>
           <Link
             href="/operations"
-            className="inline-flex text-[0.9375rem] font-medium text-white/80 border-b border-white/30 pb-0.5 hover:text-white hover:border-white transition-colors"
+            className="inline-flex text-[0.9375rem] font-medium text-white/90 border-b border-white/30 pb-0.5 hover:text-white hover:border-white transition-colors"
           >
             View operations detail
           </Link>

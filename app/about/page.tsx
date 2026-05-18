@@ -56,7 +56,7 @@ export default function AboutPage() {
                 <p className="text-white text-[1.125rem] font-semibold leading-[1.5] mb-5">
                   Deep knowledge of the Greek healthcare market — built over years of direct operational experience.
                 </p>
-                <p className="text-white/65 text-[0.9375rem] leading-[1.65]">
+                <p className="text-white/85 text-[0.9375rem] leading-[1.65]">
                   Our team understands the regulatory landscape, the logistics requirements, and the relationship dynamics that determine whether a product reaches market reliably or not.
                 </p>
               </div>
@@ -91,7 +91,7 @@ export default function AboutPage() {
             {promises.map(p => (
               <div key={p.title} className="border-l-2 border-soft-teal pl-6">
                 <p className="text-[0.6875rem] font-bold tracking-[0.1em] uppercase text-soft-teal mb-3">{p.title}</p>
-                <p className="text-[0.9375rem] text-white/70 leading-[1.65]">{p.body}</p>
+                <p className="text-[0.9375rem] text-white/85 leading-[1.65]">{p.body}</p>
               </div>
             ))}
           </div>

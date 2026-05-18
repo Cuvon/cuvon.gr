@@ -91,7 +91,7 @@ export default function OperationsPage() {
           <div className="section-header">
             <SectionLabel>Traceability</SectionLabel>
             <h2 className="text-h2 text-white mt-5">Every product. Every step.</h2>
-            <p className="text-lead text-white/65 mt-4 max-w-lg">
+            <p className="text-lead text-white/85 mt-4 max-w-lg">
               Traceability is how we operate — a core part of every distribution process, not a separate compliance layer.
             </p>
           </div>

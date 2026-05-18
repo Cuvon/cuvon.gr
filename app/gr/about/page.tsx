@@ -56,7 +56,7 @@ export default function GrAboutPage() {
                 <p className="text-white text-[1.125rem] font-semibold leading-[1.5] mb-5">
                   Βαθιά γνώση της ελληνικής αγοράς υγείας — χτισμένη μέσα από χρόνια άμεσης επιχειρησιακής εμπειρίας.
                 </p>
-                <p className="text-white/65 text-[0.9375rem] leading-[1.65]">
+                <p className="text-white/85 text-[0.9375rem] leading-[1.65]">
                   Η ομάδα μας κατανοεί το ρυθμιστικό πλαίσιο, τις απαιτήσεις logistics και τις σχέσεις εταίρων που καθορίζουν επιτυχία στην ελληνική αγορά υγείας.
                 </p>
               </div>

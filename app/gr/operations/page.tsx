@@ -96,7 +96,7 @@ export default function GrOperationsPage() {
           <div className="section-header">
             <SectionLabel>Ιχνηλασιμότητα</SectionLabel>
             <h2 className="text-h2 text-white mt-5">Κάθε προϊόν. Κάθε βήμα.</h2>
-            <p className="text-lead text-white/65 mt-4 max-w-lg">
+            <p className="text-lead text-white/85 mt-4 max-w-lg">
               Η ιχνηλασιμότητα είναι ο τρόπος που λειτουργούμε — βασικό μέρος κάθε διαδικασίας διανομής, όχι ξεχωριστό επίπεδο συμμόρφωσης.
             </p>
           </div>

@@ -91,7 +91,7 @@ export default function GrHomePage() {
             <h1 className="text-display text-white mb-7 leading-[1.05]">
               Γρήγορη, αξιόπιστη διανομή προϊόντων υγείας για την ελληνική αγορά.
             </h1>
-            <p className="text-lead text-white/72 max-w-[520px] leading-[1.65] mb-11">
+            <p className="text-lead text-white/90 max-w-[520px] leading-[1.65] mb-11">
               Η Cuvon φέρνει θεραπείες υψηλής ποιότητας στην Ελλάδα. Κινούμαστε γρήγορα, διατηρούμε σταθερό εφοδιασμό και χτίζουμε συνεργασίες που λειτουργούν.
             </p>
             <div className="flex flex-wrap items-center gap-6">
@@ -103,7 +103,7 @@ export default function GrHomePage() {
               </Link>
               <Link
                 href="/gr/about"
-                className="inline-flex text-[0.9375rem] font-medium text-white/82 border-b border-white/30 pb-0.5 hover:text-white hover:border-white transition-colors"
+                className="inline-flex text-[0.9375rem] font-medium text-white/90 border-b border-white/30 pb-0.5 hover:text-white hover:border-white transition-colors"
               >
                 Σχετικά με τη Cuvon
               </Link>
@@ -154,7 +154,7 @@ export default function GrHomePage() {
           <div className="section-header">
             <SectionLabel>Λειτουργίες &amp; Ποιότητα</SectionLabel>
             <h2 className="text-h2 text-white mt-5 mb-4">Η αξιοπιστία εφοδιασμού είναι το προϊόν.</h2>
-            <p className="text-lead text-white/65 max-w-[520px] leading-[1.65]">
+            <p className="text-lead text-white/85 max-w-[520px] leading-[1.65]">
               Η ποιότητα και η διαθεσιμότητα είναι επιχειρησιακά δεδομένα — ενσωματωμένα στον τρόπο που λειτουργεί η Cuvon.
             </p>
           </div>
@@ -163,7 +163,7 @@ export default function GrHomePage() {
           </div>
           <Link
             href="/gr/operations"
-            className="inline-flex text-[0.9375rem] font-medium text-white/80 border-b border-white/30 pb-0.5 hover:text-white hover:border-white transition-colors"
+            className="inline-flex text-[0.9375rem] font-medium text-white/90 border-b border-white/30 pb-0.5 hover:text-white hover:border-white transition-colors"
           >
             Δείτε λεπτομέρειες λειτουργιών
           </Link>
