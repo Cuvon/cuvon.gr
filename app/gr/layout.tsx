@@ -1,8 +1,9 @@
 // Greek section layout — /gr/* routes.
-// Sets hreflang alternates for the entire Greek section.
-// The html[lang="el"] attribute is handled by the root layout via middleware.ts.
+// Sets html[lang="el"] via client component (nested layouts can't override the root <html> tag).
+// Also sets hreflang alternates for the entire Greek section.
 
 import type { Metadata } from 'next'
+import LangOverride from '@/components/LangOverride'
 
 export const metadata: Metadata = {
   alternates: {
@@ -14,5 +15,11 @@ export const metadata: Metadata = {
 }
 
 export default function GrLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>
+  return (
+    <>
+      {/* Flips html[lang] to "el" on the client after hydration */}
+      <LangOverride lang="el" />
+      {children}
+    </>
+  )
 }

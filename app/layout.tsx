@@ -6,7 +6,6 @@
 
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { headers } from 'next/headers'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import './globals.css'
@@ -44,11 +43,9 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  // Read lang from middleware header; default to 'en'
-  const lang = headers().get('x-lang') ?? 'en'
-
   return (
-    <html lang={lang} className={inter.variable}>
+    // lang="en" is the default; Greek routes override it via LangOverride client component
+    <html lang="en" className={inter.variable}>
       <body className="flex flex-col min-h-screen">
         <Nav />
         <main className="flex-1">
