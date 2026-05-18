@@ -1,6 +1,6 @@
 // middleware.ts — runs on every request before rendering.
-// Sets x-lang header so the root layout can apply the correct html[lang] attribute
-// without needing to read the URL in a server component directly.
+// Forwards x-lang as a REQUEST header so the root layout can read it via headers().
+// (Response headers are not visible to server components — must use request headers.)
 //
 // English:  /          /about   /products  etc.  → lang = "en"
 // Greek:    /gr        /gr/about  /gr/products   → lang = "el"
@@ -9,10 +9,14 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
 export function middleware(request: NextRequest) {
-  const response = NextResponse.next()
+  // Clone request headers and inject x-lang before passing to the origin
+  const requestHeaders = new Headers(request.headers)
   const isGreek = request.nextUrl.pathname.startsWith('/gr')
-  response.headers.set('x-lang', isGreek ? 'el' : 'en')
-  return response
+  requestHeaders.set('x-lang', isGreek ? 'el' : 'en')
+
+  return NextResponse.next({
+    request: { headers: requestHeaders },
+  })
 }
 
 // Skip static assets — only run on navigable routes
