@@ -1,7 +1,5 @@
-import type { NextConfig } from 'next'
-
-const nextConfig: NextConfig = {
-  // Allow images from Sanity CDN
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
     remotePatterns: [
       {
@@ -11,10 +9,9 @@ const nextConfig: NextConfig = {
     ],
   },
 
-  // Redirect /studio to Sanity Studio embedded route
   async redirects() {
     return []
   },
 }
 
-export default nextConfig
+module.exports = nextConfig
