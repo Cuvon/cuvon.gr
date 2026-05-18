@@ -42,8 +42,6 @@ export default defineConfig({
               ),
           ]),
     }),
-    // Vision — GROQ query explorer (development only)
-    visionTool(),
   ],
 
   schema: { types: schemaTypes },
