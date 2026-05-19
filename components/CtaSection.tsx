@@ -22,7 +22,7 @@ export default function CtaSection({
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
           <div>
             <h2 className="text-h2 text-white mb-3">{headline}</h2>
-            <p className="text-lead text-white/68 max-w-md">{sub}</p>
+            <p className="text-lead text-white/85 max-w-md">{sub}</p>
           </div>
           <Link
             href={href}

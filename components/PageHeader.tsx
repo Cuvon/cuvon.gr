@@ -24,7 +24,7 @@ export default function PageHeader({ label, title, lead }: PageHeaderProps) {
         </h1>
         {/* Lead text */}
         {lead && (
-          <p className="text-lead text-white/68 max-w-[580px] leading-[1.65]">
+          <p className="text-lead text-white/85 max-w-[580px] leading-[1.65]">
             {lead}
           </p>
         )}
