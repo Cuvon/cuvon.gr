@@ -30,7 +30,7 @@ export default function OperationsPage() {
     <>
       <PageHeader
         label="Operations & Quality"
-        title={<span style={{whiteSpace: 'nowrap'}}>Supply reliability is our core commodity</span>}
+        title="Supply reliability is our core commodity"
         lead="We view supply chain reliability not just as an operational goal, but as the primary value we deliver to our partners. Our infrastructure is built to eliminate risk, ensure compliance, and guarantee product availability without exception."
       />
 

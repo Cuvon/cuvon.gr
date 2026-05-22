@@ -21,7 +21,7 @@ export default function PageHeader({ label, title, lead }: PageHeaderProps) {
         {/* Rule — 32px teal underline, brand spec */}
         <div className="w-8 h-0.5 bg-soft-teal mb-5" />
         {/* Headline */}
-        <h1 className="text-h1 text-white max-w-prose-lg mb-5">
+        <h1 className="text-[1.75rem] sm:text-[2.25rem] lg:text-h1 text-white max-w-prose-lg mb-5">
           {title}
         </h1>
         {/* Lead text */}
