@@ -66,7 +66,7 @@ export default function ProductsPage() {
     <>
       <PageHeader
         label="Products"
-        title="A deliberate portfolio. Every product is well backed."
+        title={<>A deliberate portfolio.<br />Every product is well backed.</>}
         lead="We carry only what we can fully support. Every product in the Cuvon portfolio has earned its place — evaluated against genuine market need and backed completely."
       />
 
