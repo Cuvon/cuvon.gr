@@ -140,7 +140,7 @@ export default function ProductsPage() {
       </section>
 
       <CtaSection
-        headline="Interested in distributing with Cuvon?"
+        headline="Ready to bring your product to the Greek market?"
         sub="Tell us about your product and we will tell you whether there is a fit."
         label="Contact us"
       />
