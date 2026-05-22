@@ -12,7 +12,7 @@ import { usePathname } from 'next/navigation'
 const content = {
   en: {
     tagline: 'Built with care. Reliably delivered.',
-    sub: 'Healthcare product import and distribution. Greece.',
+    sub: 'Premium Healthcare Product Importation, Promotion & Distribution. Greece.',
     company: { heading: 'Company', links: [
       { href: '/about',      label: 'About' },
       { href: '/operations', label: 'Operations & Quality' },
