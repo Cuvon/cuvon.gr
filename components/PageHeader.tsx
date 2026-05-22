@@ -2,9 +2,11 @@
 // Dark Deep Blue background, white text, consistent rhythm.
 // Server component.
 
+import type { ReactNode } from 'react'
+
 interface PageHeaderProps {
   label: string
-  title: string
+  title: ReactNode
   lead?: string
 }
 

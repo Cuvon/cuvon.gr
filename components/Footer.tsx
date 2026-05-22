@@ -11,8 +11,8 @@ import { usePathname } from 'next/navigation'
 
 const content = {
   en: {
-    tagline: 'Built with care. Reliably delivered.',
-    sub: 'Healthcare product import and distribution. Greece.',
+    tagline: 'Precision in Care.',
+    sub: 'Premium Healthcare Product Importation, Promotion & Distribution. Greece.',
     company: { heading: 'Company', links: [
       { href: '/about',      label: 'About' },
       { href: '/operations', label: 'Operations & Quality' },
@@ -23,10 +23,10 @@ const content = {
       { href: '/contact',  label: 'Contact' },
     ]},
     bottomRight: 'Greece',
-    copyright: '© 2025 Cuvon. All rights reserved.',
+    copyright: '© 2026 Cuvon. All rights reserved.',
   },
   gr: {
-    tagline: 'Με φροντίδα. Αξιόπιστα.',
+    tagline: 'Precision in Care.',
     sub: 'Εισαγωγή και διανομή προϊόντων υγείας. Ελλάδα.',
     company: { heading: 'Εταιρεία', links: [
       { href: '/gr/about',      label: 'Σχετικά με εμάς' },
@@ -38,7 +38,7 @@ const content = {
       { href: '/gr/contact',  label: 'Επικοινωνία' },
     ]},
     bottomRight: 'Ελλάδα',
-    copyright: '© 2025 Cuvon. Με επιφύλαξη παντός δικαιώματος.',
+    copyright: '© 2026 Cuvon. Με επιφύλαξη παντός δικαιώματος.',
   },
 }
 

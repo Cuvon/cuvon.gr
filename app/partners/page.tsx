@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 }
 
 const audience = [
-  { title: 'Manufacturers', body: 'Global manufacturers who need a reliable, agile partner for Greek market access — with the focus and speed that larger distributors rarely offer.' },
-  { title: 'Pharmacies', body: 'Pharmacy networks that depend on consistent stock levels and a distributor who communicates clearly and early when anything changes.' },
-  { title: 'Healthcare Professionals', body: 'Clinicians and prescribers who need to know the products they rely on are available, correctly documented, and quality-assured.' },
-  { title: 'Distribution Partners', body: 'Logistics partners who share our standards for traceability, cold chain integrity, and operational reliability.' },
+  { title: 'Pharmacists', body: 'We collaborate closely with pharmacists across Greece. Cuvon ensures consistent stock availability, rapid replenishment, and strong promotional support. We empower pharmacists to confidently recommend products, driving higher consumer trust and retail turnover.' },
+  { title: 'Physicians', body: 'Driving clinical endorsement through expert communication. We connect products with leading healthcare professionals across Greece, utilizing deep category knowledge and compliant promotional strategies to secure strong medical backing and steady prescription growth.' },
+  { title: 'Manufacturers', body: 'Aligning with world-class manufacturers to deliver market excellence. We protect the product\'s integrity through high-rigour logistics while actively driving its commercial expansion, transforming production excellence into Greek market leadership.' },
+  { title: 'Logistics Partners', body: 'Building a bulletproof supply chain through premium operational alliances. Cuvon collaborates with leading logistics providers to enforce the highest standards of safety, speed, and regulatory precision—ensuring products are always delivered on time and in flawless condition.' },
 ]
 
 
@@ -31,8 +31,8 @@ export default function PartnersPage() {
     <>
       <PageHeader
         label="Partners"
-        title="Partnerships built around performance."
-        lead="We collaborate with global manufacturers and emerging innovators to bring the right treatments to Greece — smoothly, efficiently, and with full support."
+        title="Partnerships built around performance and trust."
+        lead="We collaborate with global healthcare manufacturers and emerging innovators to bring the right treatments to Greece smoothly, efficiently and with full support."
       />
 
       {/* Audience */}
@@ -40,7 +40,7 @@ export default function PartnersPage() {
         <div className="site-container">
           <div className="section-header">
             <SectionLabel>Who we work with</SectionLabel>
-            <h2 className="text-h2 text-deep-blue mt-5">The right people in the right positions.</h2>
+            <h2 className="text-h2 text-deep-blue mt-5">Aligned for Growth — Our Trusted Network.</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border border-deep-blue/10 rounded-brand overflow-hidden divide-x divide-y divide-deep-blue/10">
             {audience.map(a => (

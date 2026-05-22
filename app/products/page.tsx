@@ -6,7 +6,7 @@ import CtaSection from '@/components/CtaSection'
 export const metadata: Metadata = {
   title: 'Products',
   description:
-    'Cuvon distributes OTC, prescription, wellness, and  specialist pharmaceutical products across the Greek market. Every product is well backed.',
+    'Cuvon distributes OTC, prescription, wellness, and specialist pharmaceutical products across the Greek market. Every product is well backed.',
   alternates: { canonical: '/products' },
 }
 

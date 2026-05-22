@@ -8,7 +8,7 @@ import CtaSection from '@/components/CtaSection'
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Cuvon is a focused healthcare product distributor for the Greek market. Pharmaceuticals, OTC, food supplements, and cosmetics — reliably delivered.',
+    'Cuvon is a focused healthcare product partner for the Greek market. Pharmaceuticals, OTC, food supplements, and cosmetics — reliably delivered.',
   alternates: { canonical: '/about' },
 }
 
@@ -30,8 +30,8 @@ export default function AboutPage() {
     <>
       <PageHeader
         label="About Cuvon"
-        title="A focused healthcare product distributor for the Greek market."
-        lead="We import and distribute pharmaceuticals, OTC products, food supplements, and cosmetics in Greece — with the reliability, speed, and accountability that professional partners depend on."
+        title="A fast, reliable healthcare partner focusing on commercializing quality treatments to the Greek market."
+        lead="We import and commercialize pharmaceuticals, OTC products, food supplements, & cosmetics, with the reliability, speed, and accountability that professional partners depend on."
       />
 
       {/* Narrative */}
@@ -41,13 +41,7 @@ export default function AboutPage() {
             <div className="lg:col-span-3">
               <h2 className="text-h2 text-deep-blue mb-6">Why Cuvon exists.</h2>
               <p className="text-lead text-slate-blue leading-[1.7] mb-5">
-                Cuvon is a healthcare product distributor operating across pharmaceuticals, OTC, food supplements, and cosmetics. We work directly with manufacturers, pharmacy networks, and healthcare professionals — managing the full distribution chain from import to delivery.
-              </p>
-              <p className="text-lead text-slate-blue leading-[1.7] mb-5">
-                The Greek market is a defined, mature environment. Distribution has historically been dominated by large, generalised operators more focused on volume than outcomes — leaving a clear gap for a distributor built around reliability and accountability.
-              </p>
-              <p className="text-lead text-slate-blue leading-[1.7]">
-                Cuvon was built to fill that gap. Our team brings deep expertise in the Greek healthcare market — across regulatory requirements, supply chain logistics, and the specific demands of each product category we operate in.
+                Cuvon is a healthcare partner operating across pharmaceuticals, OTC, food supplements, and cosmetics. We work directly with manufacturers, pharmacy networks, and healthcare professionals — managing the full supply chain from import to delivery.
               </p>
             </div>
             <div className="lg:col-span-2">
@@ -86,12 +80,13 @@ export default function AboutPage() {
         <div className="site-container">
           <div className="section-header">
             <SectionLabel>Brand promise</SectionLabel>
+            <h2 className="text-h2 text-white mt-5">What we stand for.</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {promises.map(p => (
-              <div key={p.title} className="border-l-2 border-soft-teal pl-6">
-                <p className="text-[0.6875rem] font-bold tracking-[0.1em] uppercase text-soft-teal mb-3">{p.title}</p>
-                <p className="text-[0.9375rem] text-white/85 leading-[1.65]">{p.body}</p>
+              <div key={p.title} className="border-l-[3px] border-soft-teal pl-6 py-5 pr-5 bg-white/[0.04] rounded-r-brand">
+                <p className="text-[0.75rem] font-bold tracking-[0.1em] uppercase text-soft-teal mb-3">{p.title}</p>
+                <p className="text-[1rem] text-white/85 leading-[1.7]">{p.body}</p>
               </div>
             ))}
           </div>
