@@ -1,6 +1,6 @@
 # Cuvon Website
 
-Public website for Cuvon — healthcare product import and distribution, Greece.
+Public website for Cuvon — healthcare  product import and distribution, Greece.
 
 Live at **https://www.cuvon.gr**
 
