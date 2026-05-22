@@ -6,54 +6,58 @@ import CtaSection from '@/components/CtaSection'
 export const metadata: Metadata = {
   title: 'Products',
   description:
-    'Cuvon distributes OTC, prescription, wellness, and specialist pharmaceutical products across the Greek market. Every product is backed.',
+    'Cuvon distributes OTC, prescription, wellness, and specialist pharmaceutical products across the Greek market. Every product is well backed.',
   alternates: { canonical: '/products' },
 }
 
 const areas = [
   {
-    label: 'Area 01',
+    label: 'Segment 01',
     title: 'Pharmaceuticals',
-    body: 'Prescription medicines managed to the highest documentation and cold-chain standards, with full rigour in traceability, storage, and reporting.',
-    detail: 'Pharmaceutical distribution is where operational precision matters most. We treat documentation as central to how we operate.',
+    body: 'Where market penetration meets logistical excellence. At Cuvon, we combine targeted promotional strategies with high-rigour pharmaceutical storage and reporting.',
+    detail: '',
     highlights: [
       'Full cold-chain integrity',
       'End-to-end traceability',
       'Regulatory documentation compliance',
     ],
+    subtitle: 'Transforming Pharmaceutical Compliance into Commercial Advantage',
   },
   {
-    label: 'Area 02',
+    label: 'Segment 02',
     title: 'OTC',
-    body: 'Over-the-counter products distributed across Greek pharmacy networks. Consistent availability, fast replenishment, and full stock management.',
-    detail: 'OTC distribution requires volume discipline and logistics precision. We build our operations around predictable lead times and proactive communication when anything changes.',
+    body: 'Accelerating OTC brand growth across Greece\'s premier pharmacy networks. Cuvon pairs high-impact promotional expertise with flawless stock management and rapid replenishment—ensuring products are actively driven into the market and available on the shelf.',
+    detail: '',
     highlights: [
       'National pharmacy network coverage',
       'Robust stock management and forward planning',
       'Fast replenishment cycles',
     ],
+    subtitle: 'Driving OTC visibility & availability across Greek pharmacies',
   },
   {
-    label: 'Area 03',
+    label: 'Segment 03',
     title: 'Food Supplements',
-    body: 'Food supplement products selected for genuine market need and backed by credible manufacturers.',
-    detail: 'We apply the same evaluation rigour to food supplements as to every other category. We carry them because they meet a real need in the Greek market.',
+    body: 'Identifying unmet market needs and accelerating growth. At Cuvon, we select premium food supplements from credible manufacturers and back them with powerful commercial strategies.',
+    detail: '',
     highlights: [
       'Evaluated against genuine market need',
       'Credible, vetted manufacturers only',
       'Full supply reliability',
     ],
+    subtitle: 'Transforming rigorous scientific vetting into high-impact market success across Greece',
   },
   {
-    label: 'Area 04',
+    label: 'Segment 04',
     title: 'Cosmetics',
-    body: 'Cosmetic products requiring focused distribution and a partner that understands the category and its requirements.',
-    detail: 'We bring the same operational discipline to cosmetics as we do to every product area — precise logistics, full traceability, and deep product knowledge.',
+    body: 'Where aesthetic brand promotion meets precise operational discipline. We deploy targeted commercial expertise and deep product knowledge to elevate the brand\'s prestige, drive consumer demand, and maximize retail velocity.',
+    detail: '',
     highlights: [
       'Focused category handling',
       'Full product knowledge',
       'Consistent availability and replenishment',
     ],
+    subtitle: 'Prestige Promotion, Precise Execution: Accelerating Cosmetics Growth in Greece',
   },
 ]
 
@@ -62,7 +66,7 @@ export default function ProductsPage() {
     <>
       <PageHeader
         label="Products"
-        title="A deliberate portfolio. Every product is backed."
+        title="A deliberate portfolio. Every product is well backed."
         lead="We carry only what we can fully support. Every product in the Cuvon portfolio has earned its place — evaluated against genuine market need and backed completely."
       />
 
@@ -81,8 +85,11 @@ export default function ProductsPage() {
             </div>
             <div className="lg:col-span-2 flex flex-col gap-4">
               <div className="bg-light-grey rounded-brand border border-deep-blue/8 p-7">
-                <p className="text-[2rem] font-bold text-deep-blue mb-1.5">4</p>
-                <p className="text-[0.875rem] text-slate-blue">Product areas — OTC, Prescription, Wellness, Specialist</p>
+                <div className="flex items-baseline gap-3 mb-1.5">
+                  <p className="text-[2rem] font-bold text-deep-blue">4</p>
+                  <p className="text-[0.875rem] font-semibold text-deep-blue">Commercial Segments</p>
+                </div>
+                <p className="text-[0.875rem] text-slate-blue">Pharmaceuticals, OTC, Food supplements, Cosmetics</p>
               </div>
               <div className="bg-light-grey rounded-brand border border-deep-blue/8 p-7">
                 <p className="text-[2rem] font-bold text-deep-blue mb-1.5">100%</p>
@@ -98,7 +105,7 @@ export default function ProductsPage() {
         <div className="site-container">
           <div className="section-header">
             <SectionLabel>Product areas</SectionLabel>
-            <h2 className="text-h2 text-deep-blue mt-5">What we distribute.</h2>
+            <h2 className="text-h2 text-deep-blue mt-5">Commercial Segments.</h2>
           </div>
           <div className="flex flex-col gap-6">
             {areas.map(a => (
@@ -109,7 +116,10 @@ export default function ProductsPage() {
                     <p className="text-label text-soft-teal uppercase tracking-[0.12em] mb-3">{a.label}</p>
                     <h2 className="text-h2 text-deep-blue mb-4">{a.title}</h2>
                     <p className="text-lead text-slate-blue leading-[1.7] mb-4">{a.body}</p>
-                    <p className="text-body text-slate-blue leading-[1.7]">{a.detail}</p>
+                    {'subtitle' in a && a.subtitle && (
+                      <p className="text-[0.875rem] font-semibold text-deep-blue mb-4 leading-[1.5]">{a.subtitle}</p>
+                    )}
+                    {a.detail && <p className="text-body text-slate-blue leading-[1.7]">{a.detail}</p>}
                   </div>
                   {/* Highlights */}
                   <div className="flex-1">
