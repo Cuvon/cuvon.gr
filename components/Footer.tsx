@@ -28,11 +28,11 @@ const content = {
   gr: {
     tagline: 'Precision in Care.',
     sub: 'Εισαγωγή, Εμπορική Ανάπτυξη & Διανομή Προϊόντων Υγείας στην Ελλάδα.',
-    company: { heading: 'Εταιρεία', links: [
+    company: { heading: 'Εταιρεια', links: [
       { href: '/gr/about',      label: 'Σχετικά με εμάς' },
       { href: '/gr/operations', label: 'Λειτουργίες & Ποιότητα' },
     ]},
-    work: { heading: 'Συνεργαστείτε μαζί μας', links: [
+    work: { heading: 'Συνεργαστειτε μαζι μας', links: [
       { href: '/gr/products', label: 'Προϊόντα' },
       { href: '/gr/partners', label: 'Συνεργάτες' },
       { href: '/gr/contact',  label: 'Επικοινωνία' },
