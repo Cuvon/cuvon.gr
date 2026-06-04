@@ -27,7 +27,7 @@ const content = {
   },
   gr: {
     tagline: 'Precision in Care.',
-    sub: 'Εισαγωγή και διανομή προϊόντων υγείας. Ελλάδα.',
+    sub: 'Εισαγωγή, Εμπορική Ανάπτυξη & Διανομή Προϊόντων Υγείας στην Ελλάδα.',
     company: { heading: 'Εταιρεία', links: [
       { href: '/gr/about',      label: 'Σχετικά με εμάς' },
       { href: '/gr/operations', label: 'Λειτουργίες & Ποιότητα' },
