@@ -42,7 +42,7 @@ export default function GrHomePage() {
       <section className="relative bg-deep-blue overflow-hidden pt-20 pb-24 lg:pt-28 lg:pb-32">
         <div className="site-container relative z-10">
           <div className="max-w-[740px]">
-            <h1 className="text-[2.25rem] sm:text-[3rem] lg:text-display text-white mb-7 leading-[1.05]">
+            <h1 className="text-[2.25rem] sm:text-[3rem] lg:text-[3.5rem] text-white mb-7 leading-[1.05] font-bold tracking-[-0.02em]">
               Επιταχύνουμε την πρόσβαση σε ποιοτικές λύσεις υγείας στην Ελλάδα.
             </h1>
             <p className="text-lead text-white/90 max-w-[520px] leading-[1.65] mb-11">
