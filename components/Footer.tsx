@@ -106,6 +106,8 @@ export default function Footer() {
           <p className="text-[0.8rem] text-white/60">
             <a href="mailto:info@cuvon.gr" className="hover:text-white/70 transition-colors">info@cuvon.gr</a>
             <span className="mx-2 opacity-40">·</span>
+            <a href="tel:+302102603795" className="hover:text-white/70 transition-colors">+30 210 2603795</a>
+            <span className="mx-2 opacity-40">·</span>
             {t.bottomRight}
           </p>
         </div>
