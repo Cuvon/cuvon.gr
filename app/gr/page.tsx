@@ -66,7 +66,7 @@ export default function GrHomePage() {
           <div className="section-header">
             <SectionLabel>Τι κάνει τη Cuvon διαφορετική</SectionLabel>
             <h2 className="text-h2 text-deep-blue mt-5 mb-4">
-              Χτισμένη γύρω από την απόδοση.
+              Εστιασμένη στην απόδοση.
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
