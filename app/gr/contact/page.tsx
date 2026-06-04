@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 
 // Contact email addresses by audience (Greek labels)
 const emails = [
-  { label: 'Κατασκευαστές & εταίροι διανομής', address: 'partners@cuvon.gr' },
-  { label: 'Φαρμακεία & υπάρχοντες πελάτες',   address: 'customers@cuvon.gr' },
-  { label: 'Γενικές πληροφορίες',               address: 'info@cuvon.gr' },
+  { label: 'Κατασκευαστες & εταιροι διανομης', address: 'partners@cuvon.gr' },
+  { label: 'Φαρμακεια & υπαρχοντες πελατες',   address: 'customers@cuvon.gr' },
+  { label: 'Γενικες πληροφοριες',               address: 'info@cuvon.gr' },
 ]
 
 export default function GrContactPage() {
@@ -56,7 +56,7 @@ export default function GrContactPage() {
 
               {/* Address */}
               <div>
-                <p className="text-[0.75rem] font-bold tracking-[0.1em] uppercase text-soft-teal mb-1.5">Διεύθυνση</p>
+                <p className="text-[0.75rem] font-bold tracking-[0.1em] uppercase text-soft-teal mb-1.5">Διευθυνση</p>
                 <a
                   href="https://maps.google.com/?q=Vasilissis+Olgas+24,+Marousi+151+22,+Greece"
                   target="_blank"

@@ -34,7 +34,7 @@ export default function GrPartnersPage() {
   return (
     <>
       <PageHeader
-        label="Συνεργάτες"
+        label="Συνεργατες"
         title="Συνεργασίες χτισμένες γύρω από την απόδοση."
         lead="Συνεργαζόμαστε με παγκόσμιους κατασκευαστές και αναδυόμενες καινοτόμες εταιρείες για να φέρουμε τις κατάλληλες θεραπείες στην Ελλάδα — ομαλά, αποτελεσματικά και με πλήρη υποστήριξη."
       />
@@ -43,7 +43,7 @@ export default function GrPartnersPage() {
       <section className="bg-white section-pad">
         <div className="site-container">
           <div className="section-header">
-            <SectionLabel>Με ποιους συνεργαζόμαστε</SectionLabel>
+            <SectionLabel>Με ποιους συνεργαζομαστε</SectionLabel>
             <h2 className="text-h2 text-deep-blue mt-5">Οι κατάλληλοι άνθρωποι στις κατάλληλες θέσεις.</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border border-deep-blue/10 rounded-brand overflow-hidden divide-x divide-y divide-deep-blue/10">
@@ -61,7 +61,7 @@ export default function GrPartnersPage() {
       <section className="bg-deep-blue section-pad">
         <div className="site-container">
           <div className="section-header">
-            <SectionLabel>Η δέσμευσή μας</SectionLabel>
+            <SectionLabel>Η δεσμευση μας</SectionLabel>
             <h2 className="text-h2 text-white mt-5">Τι μπορείτε να περιμένετε από εμάς.</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

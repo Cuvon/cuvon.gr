@@ -34,7 +34,7 @@ export default function GrOperationsPage() {
   return (
     <>
       <PageHeader
-        label="Λειτουργίες & Ποιότητα"
+        label="Λειτουργιες & Ποιοτητα"
         title="Η αξιοπιστία εφοδιασμού είναι το προϊόν."
         lead="Η ποιότητα και η διαθεσιμότητα είναι επιχειρησιακά δεδομένα — ενσωματωμένα στον τρόπο που λειτουργεί η Cuvon, αντικατοπτρίζονται σε κάθε απόφαση που παίρνουμε."
       />
@@ -44,7 +44,7 @@ export default function GrOperationsPage() {
         <div className="site-container">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-start">
             <div className="lg:col-span-3">
-              <SectionLabel>Εφοδιαστική Αλυσίδα</SectionLabel>
+              <SectionLabel>Εφοδιαστικη Αλυσιδα</SectionLabel>
               <h2 className="text-h2 text-deep-blue mt-5 mb-6">Η σταθερή διαθεσιμότητα είναι η βάση.</h2>
               <p className="text-lead text-slate-blue leading-[1.7] mb-5">
                 Η αξιοπιστία εφοδιασμού είναι το πιο σημαντικό που κάνουμε. Είναι βασική υποχρέωση, ενσωματωμένη σε κάθε πτυχή της λειτουργίας μας.
@@ -59,9 +59,9 @@ export default function GrOperationsPage() {
             <div className="lg:col-span-2">
               <div className="bg-light-grey rounded-brand p-8 flex flex-col gap-6">
                 {[
-                  { label: 'Διαχείριση αποθεμάτων',    body: 'Ισχυρός προγραμματισμός και έλεγχοι ελάχιστων επιπέδων αποθεμάτων ενσωματωμένοι στις τυπικές λειτουργίες.' },
-                  { label: 'Προληπτική επικοινωνία',    body: 'Οι εταίροι ειδοποιούνται πριν μια διακοπή γίνει έλλειψη, με σαφή χρονοδιαγράμματα και επόμενα βήματα.' },
-                  { label: 'Εστίαση στη λύση',          body: 'Όταν ανακύπτουν προβλήματα: δηλώνουμε τι συνέβη, το διορθώνουμε και εξηγούμε τι άλλαξε. Ξεκάθαρα και άμεσα.' },
+                  { label: 'Διαχειριση αποθεματων',    body: 'Ισχυρός προγραμματισμός και έλεγχοι ελάχιστων επιπέδων αποθεμάτων ενσωματωμένοι στις τυπικές λειτουργίες.' },
+                  { label: 'Προληπτικη επικοινωνια',    body: 'Οι εταίροι ειδοποιούνται πριν μια διακοπή γίνει έλλειψη, με σαφή χρονοδιαγράμματα και επόμενα βήματα.' },
+                  { label: 'Εστιαση στη λυση',          body: 'Όταν ανακύπτουν προβλήματα: δηλώνουμε τι συνέβη, το διορθώνουμε και εξηγούμε τι άλλαξε. Ξεκάθαρα και άμεσα.' },
                 ].map((item, i, arr) => (
                   <div key={item.label} className={i < arr.length - 1 ? 'pb-6 border-b border-deep-blue/8' : ''}>
                     <p className="text-[0.75rem] font-bold tracking-[0.1em] uppercase text-soft-teal mb-2">{item.label}</p>
@@ -78,7 +78,7 @@ export default function GrOperationsPage() {
       <section className="bg-light-grey section-pad">
         <div className="site-container">
           <div className="section-header">
-            <SectionLabel>Ποιότητα</SectionLabel>
+            <SectionLabel>Ποιοτητα</SectionLabel>
             <h2 className="text-h2 text-deep-blue mt-5">Η εμπιστοσύνη δεν διαπραγματεύεται.</h2>
             <p className="text-lead text-slate-blue mt-4 max-w-lg">
               Συνεργαζόμαστε μόνο με κατασκευαστές και εταίρους που πληρούν το πρότυπό μας, και διατηρούμε αυτό το πρότυπο σταθερά — ανεξάρτητα από ευκολία ή κόστος.
@@ -94,7 +94,7 @@ export default function GrOperationsPage() {
       <section className="bg-deep-blue section-pad">
         <div className="site-container">
           <div className="section-header">
-            <SectionLabel>Ιχνηλασιμότητα</SectionLabel>
+            <SectionLabel>Ιχνηλασιμοτητα</SectionLabel>
             <h2 className="text-h2 text-white mt-5">Κάθε προϊόν. Κάθε βήμα.</h2>
             <p className="text-lead text-white/85 mt-4 max-w-lg">
               Η ιχνηλασιμότητα είναι ο τρόπος που λειτουργούμε — βασικό μέρος κάθε διαδικασίας διανομής, όχι ξεχωριστό επίπεδο συμμόρφωσης.
@@ -110,7 +110,7 @@ export default function GrOperationsPage() {
       <section className="bg-white section-pad">
         <div className="site-container">
           <div className="section-header">
-            <SectionLabel>Υποδομή logistics</SectionLabel>
+            <SectionLabel>Υποδομη logistics</SectionLabel>
             <h2 className="text-h2 text-deep-blue mt-5">Χτισμένο σε παγκόσμιας κλάσης εγκαταστάσεις.</h2>
             <p className="text-lead text-slate-blue mt-4 max-w-2xl leading-[1.7]">
               Οι λειτουργίες logistics μας εδρεύουν στη Seneka — ένα από τα πιο προηγμένα κέντρα αποθήκευσης και διανομής της Ελλάδας, στην Κηφισιά, Αθήνα. Η εγκατάσταση παρέχει την κλίμακα, την ακρίβεια και τους περιβαλλοντικούς ελέγχους που απαιτεί το εύρος των προϊόντων μας.

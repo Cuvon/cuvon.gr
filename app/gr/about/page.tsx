@@ -27,7 +27,7 @@ export default function GrAboutPage() {
   return (
     <>
       <PageHeader
-        label="Σχετικά με εμάς"
+        label="Σχετικα με εμας"
         title="Εξειδικευμένος διανομέας προϊόντων υγείας για την ελληνική αγορά."
         lead="Φαρμακευτικά προϊόντα, OTC, συμπληρώματα διατροφής και καλλυντικά — διανεμημένα με πλήρη εστίαση και επιχειρησιακή ακρίβεια."
       />
@@ -37,7 +37,7 @@ export default function GrAboutPage() {
         <div className="site-container">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-start">
             <div className="lg:col-span-3">
-              <SectionLabel>Η ιστορία μας</SectionLabel>
+              <SectionLabel>Η ιστορια μας</SectionLabel>
               <h2 className="text-h2 text-deep-blue mt-5 mb-6">Εστιασμένοι. Αξιόπιστοι. Με ρίζες στην ελληνική αγορά.</h2>
               <p className="text-lead text-slate-blue leading-[1.7] mb-5">
                 Η Cuvon είναι εξειδικευμένος διανομέας προϊόντων υγείας, με έδρα και εστίαση στην ελληνική αγορά. Εισάγουμε και διανέμουμε φαρμακευτικά προϊόντα, OTC, συμπληρώματα διατροφής και καλλυντικά — επιλεγμένα με βάση την ανάγκη της αγοράς και υποστηριγμένα από πλήρη επιχειρησιακή υποδομή.
@@ -52,7 +52,7 @@ export default function GrAboutPage() {
             <div className="lg:col-span-2">
               {/* Expertise panel */}
               <div className="bg-deep-blue rounded-brand p-8 h-full flex flex-col justify-center">
-                <p className="text-[0.6875rem] font-bold tracking-[0.14em] uppercase text-soft-teal mb-4">Η εμπειρία μας</p>
+                <p className="text-[0.6875rem] font-bold tracking-[0.14em] uppercase text-soft-teal mb-4">Η εμπειρια μας</p>
                 <p className="text-white text-[1.125rem] font-semibold leading-[1.5] mb-5">
                   Βαθιά γνώση της ελληνικής αγοράς υγείας — χτισμένη μέσα από χρόνια άμεσης επιχειρησιακής εμπειρίας.
                 </p>
@@ -69,7 +69,7 @@ export default function GrAboutPage() {
       <section className="bg-light-grey section-pad">
         <div className="site-container">
           <div className="section-header">
-            <SectionLabel>Αξίες</SectionLabel>
+            <SectionLabel>Αξιες</SectionLabel>
             <h2 className="text-h2 text-deep-blue mt-5">Πώς λειτουργούμε.</h2>
             <p className="text-lead text-slate-blue mt-4 max-w-lg">
               Αυτές δεν είναι φιλοδοξίες — είναι συμπεριφορές. Στην πράξη, κάθε μέρα.
