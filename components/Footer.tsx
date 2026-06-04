@@ -15,7 +15,7 @@ const content = {
     sub: 'Premium Healthcare Product Importation, Promotion & Distribution. Greece.',
     company: { heading: 'Company', links: [
       { href: '/about',      label: 'About' },
-      { href: '/operations', label: 'Operations & Quality' },
+      { href: '/operations', label: 'Infrastructure & Quality' },
     ]},
     work: { heading: 'Work with us', links: [
       { href: '/products', label: 'Products' },
@@ -30,7 +30,7 @@ const content = {
     sub: 'Εισαγωγή, Εμπορική Ανάπτυξη & Διανομή Προϊόντων Υγείας στην Ελλάδα.',
     company: { heading: 'Εταιρεια', links: [
       { href: '/gr/about',      label: 'Σχετικά με εμάς' },
-      { href: '/gr/operations', label: 'Λειτουργίες & Ποιότητα' },
+      { href: '/gr/operations', label: 'Υποδομή & Ποιότητα' },
     ]},
     work: { heading: 'Συνεργαστειτε μαζι μας', links: [
       { href: '/gr/products', label: 'Προϊόντα' },

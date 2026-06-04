@@ -17,13 +17,13 @@ const navLinks = {
     { href: '/about',      label: 'About' },
     { href: '/products',   label: 'Products' },
     { href: '/partners',   label: 'Partners' },
-    { href: '/operations', label: 'Operations & Quality' },
+    { href: '/operations', label: 'Infrastructure & Quality' },
   ],
   gr: [
     { href: '/gr/about',      label: 'Σχετικά' },
     { href: '/gr/products',   label: 'Προϊόντα' },
     { href: '/gr/partners',   label: 'Συνεργάτες' },
-    { href: '/gr/operations', label: 'Λειτουργίες & Ποιότητα' },
+    { href: '/gr/operations', label: 'Υποδομή & Ποιότητα' },
   ],
 }
 

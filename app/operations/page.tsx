@@ -7,7 +7,7 @@ import OpsBlock from '@/components/OpsBlock'
 import CtaSection from '@/components/CtaSection'
 
 export const metadata: Metadata = {
-  title: 'Operations & Quality',
+  title: 'Infrastructure & Quality',
   description:
     'Cuvon\'s operational standards — supply chain integrity, cold chain, quality assurance, traceability, and reliability.',
   alternates: { canonical: '/operations' },
@@ -29,7 +29,7 @@ export default function OperationsPage() {
   return (
     <>
       <PageHeader
-        label="Operations & Quality"
+        label="Infrastructure & Quality"
         title="Supply reliability is our core commodity"
         lead="We view supply chain reliability not just as an operational goal, but as the primary value we deliver to our partners. Our infrastructure is built to eliminate risk, ensure compliance, and guarantee product availability without exception."
       />
