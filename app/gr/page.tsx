@@ -43,7 +43,7 @@ export default function GrHomePage() {
         <div className="site-container relative z-10">
           <div className="max-w-[740px]">
             <h1 className="text-[2.25rem] sm:text-[3rem] lg:text-display text-white mb-7 leading-[1.05]">
-              Επιτάχυνση της πρόσβασης σε ποιοτικές λύσεις υγείας.
+              Επιταχύνουμε την πρόσβαση σε ποιοτικές λύσεις υγείας στην Ελλάδα.
             </h1>
             <p className="text-lead text-white/90 max-w-[520px] leading-[1.65] mb-11">
               Αποτελεσματικές στρατηγικές εμπορευματοποίησης που αναβαθμίζουν την περίθαλψη ασθενών και ενδυναμώνουν τους επαγγελματίες υγείας στην ελληνική αγορά.
