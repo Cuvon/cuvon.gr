@@ -61,6 +61,12 @@ export default function ContactPage() {
                   Vasilissis Olgas 24<br />
                   Marousi 151 22
                 </a>
+                <a
+                  href="tel:+302102603795"
+                  className="block mt-2 text-[1rem] font-medium text-deep-blue hover:text-slate-blue transition-colors"
+                >
+                  +30 210 2603795
+                </a>
               </div>
 
             </div>
