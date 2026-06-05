@@ -140,7 +140,7 @@ export default function ProductsPage() {
       </section>
 
       <CtaSection
-        headline="Let's talk about your product's potential in Greece."
+        headline="Let's talk about product's potential in Greece."
         sub="Tell us about your product and we will tell you whether there is a fit."
         label="Contact us"
       />
