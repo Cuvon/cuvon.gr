@@ -58,12 +58,12 @@ export default function Nav() {
       : pathname.startsWith(href)
 
   return (
-    <nav className="sticky top-0 z-50 bg-white border-b border-deep-blue/8 h-[68px] flex items-center">
+    <nav className="sticky top-0 z-50 bg-white border-b border-deep-blue/8 h-[80px] flex items-center">
       <div className="w-full max-w-site mx-auto px-6 lg:px-10 flex items-center justify-between">
 
         {/* Wordmark */}
         <Link href={homeHref[lang]} onClick={() => setOpen(false)} className="flex items-center">
-          <Image src="/logo.svg" alt="Cuvon" width={105} height={22} priority />
+          <Image src="/logo.svg" alt="Cuvon" width={125} height={26} priority />
         </Link>
 
         {/* Desktop links */}
@@ -126,7 +126,7 @@ export default function Nav() {
 
       {/* Mobile drawer */}
       {open && (
-        <div className="lg:hidden absolute top-[68px] left-0 right-0 bg-white border-b border-deep-blue/8 z-40">
+        <div className="lg:hidden absolute top-[80px] left-0 right-0 bg-white border-b border-deep-blue/8 z-40">
           <ul className="flex flex-col px-6 py-5 gap-5">
             {links.map(({ href, label }) => (
               <li key={href}>
