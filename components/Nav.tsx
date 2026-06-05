@@ -20,7 +20,7 @@ const navLinks = {
     { href: '/operations', label: 'Infrastructure & Quality' },
   ],
   gr: [
-    { href: '/gr/about',      label: 'Σχετικά' },
+    { href: '/gr/about',      label: 'Σχετικά με την Cuvon' },
     { href: '/gr/products',   label: 'Προϊόντα' },
     { href: '/gr/partners',   label: 'Συνεργάτες' },
     { href: '/gr/operations', label: 'Υποδομή & Ποιότητα' },
