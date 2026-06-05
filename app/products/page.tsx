@@ -104,7 +104,7 @@ export default function ProductsPage() {
       <section className="bg-light-grey section-pad">
         <div className="site-container">
           <div className="section-header">
-            <SectionLabel>Product areas</SectionLabel>
+
             <h2 className="text-h2 text-deep-blue mt-5">Commercial Segments.</h2>
           </div>
           <div className="flex flex-col gap-6">

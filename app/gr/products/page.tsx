@@ -89,7 +89,6 @@ export default function GrProductsPage() {
       <section className="bg-light-grey section-pad">
         <div className="site-container">
           <div className="section-header">
-            <SectionLabel>Κατηγοριες προιοντων</SectionLabel>
             <h2 className="text-h2 text-deep-blue mt-5">Εμπορικές Κατηγορίες.</h2>
           </div>
           <div className="flex flex-col gap-6">
