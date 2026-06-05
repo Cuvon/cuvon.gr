@@ -14,7 +14,7 @@ import { useState } from 'react'
 // Nav link labels per language
 const navLinks = {
   en: [
-    { href: '/about',      label: 'About' },
+    { href: '/about',      label: 'About us' },
     { href: '/products',   label: 'Products' },
     { href: '/partners',   label: 'Partners' },
     { href: '/operations', label: 'Infrastructure & Quality' },
