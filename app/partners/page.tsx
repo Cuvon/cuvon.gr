@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 }
 
 const audience = [
-  { title: 'Pharmacists', body: 'We collaborate closely with pharmacists across Greece. Cuvon ensures consistent stock availability, rapid replenishment, and strong promotional support. We empower pharmacists to confidently recommend products, driving higher consumer trust and retail turnover.' },
-  { title: 'Physicians', body: 'Driving clinical endorsement through expert communication. We connect products with leading healthcare professionals across Greece, utilizing deep category knowledge and compliant promotional strategies to secure strong medical backing and steady prescription growth.' },
-  { title: 'Manufacturers', body: 'Aligning with world-class manufacturers to deliver market excellence. We protect the product\'s integrity through high-rigour logistics while actively driving its commercial expansion, transforming production excellence into Greek market leadership.' },
-  { title: 'Logistics Partners', body: 'Building a bulletproof supply chain through premium operational alliances. Cuvon collaborates with leading logistics providers to enforce the highest standards of safety, speed, and regulatory precision—ensuring products are always delivered on time and in flawless condition.' },
+  { title: 'Pharmacists', body: 'Consistent stock, rapid replenishment, and strong promotional support. We empower pharmacists to confidently recommend products and drive consumer trust.' },
+  { title: 'Physicians', body: 'Expert communication connecting products with leading healthcare professionals. Deep category knowledge and compliant strategies securing strong medical backing and prescription growth.' },
+  { title: 'Manufacturers', body: 'We protect product integrity through high-rigour logistics while actively driving commercial expansion — transforming production excellence into Greek market leadership.' },
+  { title: 'Logistics Partners', body: 'Premium operational alliances enforcing the highest standards of safety, speed, and regulatory precision. Products always delivered on time, in flawless condition.' },
 ]
 
 
