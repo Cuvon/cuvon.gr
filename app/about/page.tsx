@@ -65,8 +65,7 @@ export default function AboutPage() {
           <div className="section-header">
             <SectionLabel>How we operate</SectionLabel>
             <h2 className="text-h2 text-deep-blue mt-5">
-              Four operating principles.<br className="hidden lg:block" />
-              In practice, every day.
+              Four operating pillars.
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
