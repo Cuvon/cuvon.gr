@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 
 // Contact email addresses by audience (Greek labels)
 const emails = [
-  { label: 'Κατασκευαστες & εταιροι διανομης', address: 'partners@cuvon.gr' },
-  { label: 'Φαρμακεια & υπαρχοντες πελατες',   address: 'customers@cuvon.gr' },
+  { label: 'Κατασκευαστες & Συνεργατες', address: 'partners@cuvon.gr' },
+  { label: 'Πελατες',                   address: 'customers@cuvon.gr' },
   { label: 'Γενικες πληροφοριες',               address: 'info@cuvon.gr' },
 ]
 
