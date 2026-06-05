@@ -52,7 +52,7 @@ export default function GrProductsPage() {
       <PageHeader
         label="Προιοντα"
         title={<><span style={{whiteSpace:"nowrap"}} className="text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem]">Ένα εστιασμένο χαρτοφυλάκιο.</span><br /><span style={{whiteSpace:"nowrap"}} className="text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem]">Κάθε προϊόν υποστηρίζεται πλήρως.</span></>}
-        lead="Διαχειριζόμαστε μόνο ό,τι μπορούμε να υποστηρίξουμε πλήρως. Κάθε προϊόν στο χαρτοφυλάκιο της Cuvon έχει κερδίσει τη θέση του — αξιολογημένο βάσει πραγματικής εμπορικής ανάγκης."
+        lead="Διαχειριζόμαστε μόνο ό,τι μπορούμε να υποστηρίξουμε. Κάθε προϊόν στο χαρτοφυλάκιο της Cuvon έχει κερδίσει τη θέση του — αξιολογημένο βάσει πραγματικής εμπορικής ανάγκης."
       />
 
       {/* Portfolio principle */}
