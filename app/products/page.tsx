@@ -110,7 +110,7 @@ export default function ProductsPage() {
           <div className="flex flex-col gap-6">
             {areas.map(a => (
               <div key={a.title} className="bg-white rounded-brand border border-deep-blue/8 shadow-card p-10">
-                <div className="flex flex-col lg:flex-row lg:gap-16 gap-8 items-start">
+                <div className="flex flex-col lg:flex-row lg:gap-16 gap-8 items-center">
                   {/* Main content */}
                   <div className="flex-[2]">
                     <p className="text-label text-soft-teal uppercase tracking-[0.12em] mb-3">{a.label}</p>
