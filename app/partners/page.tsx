@@ -31,7 +31,7 @@ export default function PartnersPage() {
     <>
       <PageHeader
         label="Partners"
-        title="Partnerships built around performance and trust."
+        title="Partnerships built around performance & trust."
         lead="We collaborate with global healthcare manufacturers and emerging innovators to bring the right treatments to Greece smoothly, efficiently and with full support."
       />
 
