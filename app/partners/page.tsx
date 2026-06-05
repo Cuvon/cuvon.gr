@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const audience = [
   { title: 'Pharmacists', body: 'Strong commercial support, consistent stock, and rapid replenishment. We empower pharmacists to confidently recommend products and drive consumer trust.' },
-  { title: 'Physicians', body: 'Expert communication connecting products with leading healthcare professionals. Deep category knowledge and compliant strategies securing strong medical backing and prescription growth.' },
+  { title: 'Physicians', body: 'Expert communication connecting products with leading healthcare professionals. Deep category knowledge and compliant strategies securing strong medical backing.' },
   { title: 'Manufacturers', body: 'We protect product integrity through high-rigour logistics while actively driving commercial expansion — transforming production excellence into Greek market leadership.' },
   { title: 'Logistics Partners', body: 'Premium operational alliances enforcing the highest standards of safety, speed, and regulatory precision. Products always delivered on time, in flawless condition.' },
 ]
