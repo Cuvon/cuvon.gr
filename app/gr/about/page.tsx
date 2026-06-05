@@ -71,6 +71,28 @@ export default function GrAboutPage() {
         </div>
       </section>
 
+      {/* Brand promise */}
+      <section className="bg-deep-blue section-pad">
+        <div className="site-container">
+          <div className="section-header">
+            <SectionLabel>Η υποσχεση μας</SectionLabel>
+            <h2 className="text-h2 text-white mt-5">Για τι δεσμευόμαστε.</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              { title: 'Στους συνεργατες μας', body: 'Θα γνωρίζετε πάντα πού βρίσκονται τα πράγματα. Ο εφοδιασμός είναι σταθερός, οι αποφάσεις γρήγορες και τα προβλήματα επιλύονται άμεσα.' },
+              { title: 'Στην αγορα', body: 'Κάθε προϊόν που φέρνουμε έχει λόγο ύπαρξης. Η ποιότητα και η διαθεσιμότητα είναι επιχειρησιακά δεδομένα, όχι στόχοι.' },
+              { title: 'Στον εαυτο μας', body: 'Λειτουργούμε με τα ίδια πρότυπα που απαιτούμε από τους άλλους. Εστιασμένοι, αποτελεσματικοί και πιστοί σε αυτό που έχει σημασία.' },
+            ].map(p => (
+              <div key={p.title} className="border-l-[3px] border-soft-teal pl-6 py-5 pr-5 bg-white/[0.04] rounded-r-brand">
+                <p className="text-[0.75rem] font-bold tracking-[0.1em] uppercase text-soft-teal mb-3">{p.title}</p>
+                <p className="text-[1rem] text-white/85 leading-[1.7]">{p.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <CtaSection
         headline="Θέλετε να μάθετε περισσότερα για τη Cuvon;"
         sub="Επικοινωνήστε απευθείας. Θα σας απαντήσουμε συγκεκριμένα."
