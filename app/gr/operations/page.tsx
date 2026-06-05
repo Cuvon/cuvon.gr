@@ -81,22 +81,6 @@ export default function GrOperationsPage() {
         </div>
       </section>
 
-      {/* Quality */}
-      <section className="bg-light-grey section-pad">
-        <div className="site-container">
-          <div className="section-header">
-            <SectionLabel>Ποιοτητα</SectionLabel>
-            <h2 className="text-h2 text-deep-blue mt-5">Η εμπιστοσύνη δεν διαπραγματεύεται.</h2>
-            <p className="text-lead text-slate-blue mt-4 max-w-lg">
-              Συνεργαζόμαστε μόνο με κατασκευαστές και συνεργάτες που πληρούν το πρότυπό μας, και διατηρούμε αυτό το πρότυπο σταθερά — ανεξάρτητα από ευκολία ή κόστος.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {qualityCards.map(c => <DiffCard key={c.num} {...c} />)}
-          </div>
-        </div>
-      </section>
-
       {/* Traceability */}
       <section className="bg-deep-blue section-pad">
         <div className="site-container">

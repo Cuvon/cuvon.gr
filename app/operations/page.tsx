@@ -81,21 +81,6 @@ export default function OperationsPage() {
         </div>
       </section>
 
-      {/* Quality */}
-      <section className="bg-light-grey section-pad">
-        <div className="site-container">
-          <div className="section-header">
-            <SectionLabel>Quality</SectionLabel>
-            <h2 className="text-h2 text-deep-blue mt-5">Trust is non-negotiable.</h2>
-            <p className="text-lead text-slate-blue mt-4 max-w-lg">
-              We work only with manufacturers and partners who meet our standard, and we hold that standard consistently — regardless of convenience or cost.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {qualityCards.map(c => <DiffCard key={c.num} {...c} />)}
-          </div>
-        </div>
-      </section>
 
       {/* Traceability */}
       <section className="bg-deep-blue section-pad">
