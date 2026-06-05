@@ -26,7 +26,7 @@ export default function GrContactPage() {
       <PageHeader
         label="Επικοινωνία"
         title="Πείτε μας τι χρειάζεστε."
-        lead="Εάν υπάρχει εφαρμογή, κινούμαστε γρήγορα. Θα απαντήσουμε με μια άμεση, συγκεκριμένη απάντηση."
+        lead="Θα απαντήσουμε με μια άμεση, συγκεκριμένη απάντηση."
       />
 
       <section className="bg-white section-pad">

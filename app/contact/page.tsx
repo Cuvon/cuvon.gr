@@ -21,7 +21,7 @@ export default function ContactPage() {
       <PageHeader
         label="Contact"
         title="Tell us what you need."
-        lead="If there is a fit, we move fast. We will respond with a direct, specific answer."
+        lead="We will respond with a direct, specific answer."
       />
 
       <section className="bg-white section-pad">
