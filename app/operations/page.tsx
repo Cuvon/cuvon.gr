@@ -31,7 +31,7 @@ export default function OperationsPage() {
       <PageHeader
         label="Infrastructure & Quality"
         title="Supply reliability as a core commodity"
-        lead="We view supply chain reliability not just as an operational goal, but as the primary value we deliver to our partners. Our infrastructure is built to eliminate risk, ensure compliance, and guarantee product availability without exception."
+        lead="Our infrastructure is built to eliminate risk, ensure compliance, and guarantee product availability without exception."
       />
 
 
