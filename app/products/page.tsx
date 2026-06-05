@@ -113,7 +113,6 @@ export default function ProductsPage() {
                 <div className="flex flex-col lg:flex-row lg:gap-16 gap-8 items-center">
                   {/* Main content */}
                   <div className="flex-[2]">
-                    <p className="text-label text-soft-teal uppercase tracking-[0.12em] mb-3">{a.label}</p>
                     <h2 className="text-h2 text-deep-blue mb-4">{a.title}</h2>
                     <p className="text-lead text-slate-blue leading-[1.7] mb-4">{a.body}</p>
                     {'subtitle' in a && a.subtitle && (
