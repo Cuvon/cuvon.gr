@@ -63,7 +63,7 @@ export default function GrAboutPage() {
         <div className="site-container">
           <div className="section-header">
             <SectionLabel>Πως λειτουργουμε</SectionLabel>
-            <h2 className="text-h2 text-deep-blue mt-5">Τέσσερις αρχές λειτουργίας.<br className="hidden lg:block" />Στην πράξη, κάθε μέρα.</h2>
+            <h2 className="text-h2 text-deep-blue mt-5">Τέσσερις βασικοί πυλώνες.</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {pillars.map(p => <DiffCard key={p.num} {...p} />)}
