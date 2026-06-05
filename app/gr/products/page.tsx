@@ -70,8 +70,11 @@ export default function GrProductsPage() {
             </div>
             <div className="lg:col-span-2 flex flex-col gap-4">
               <div className="bg-light-grey rounded-brand border border-deep-blue/8 p-7">
-                <p className="text-[2rem] font-bold text-deep-blue mb-1.5">4</p>
-                <p className="text-[0.875rem] text-slate-blue">Κατηγορίες προϊόντων — OTC, Συνταγογραφούμενα, Συμπληρώματα, Καλλυντικά</p>
+                <div className="flex items-baseline gap-3 mb-1.5">
+                  <p className="text-[2rem] font-bold text-deep-blue">4</p>
+                  <p className="text-[0.875rem] font-semibold text-deep-blue">Κατηγορίες Προϊόντων</p>
+                </div>
+                <p className="text-[0.875rem] text-slate-blue">Φαρμακευτικά, OTC, Συμπληρώματα διατροφής, Καλλυντικά</p>
               </div>
               <div className="bg-light-grey rounded-brand border border-deep-blue/8 p-7">
                 <p className="text-[2rem] font-bold text-deep-blue mb-1.5">100%</p>
