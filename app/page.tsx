@@ -91,7 +91,7 @@ export default function HomePage() {
               Accelerating access to quality healthcare solutions.
             </h1>
             <p className="text-lead text-white/90 max-w-[520px] leading-[1.65] mb-11">
-              Efficient commercialization strategies that elevate patient care and empower healthcare professionals in the Greek market.
+              Efficient commercialization strategies that elevate patient & consumer care and empower healthcare professionals in the Greek market.
             </p>
             <div className="flex flex-wrap items-center gap-6">
               <Link
