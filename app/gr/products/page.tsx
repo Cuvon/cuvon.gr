@@ -90,7 +90,7 @@ export default function GrProductsPage() {
         <div className="site-container">
           <div className="section-header">
             <SectionLabel>Κατηγοριες προιοντων</SectionLabel>
-            <h2 className="text-h2 text-deep-blue mt-5">Τι διανέμουμε.</h2>
+            <h2 className="text-h2 text-deep-blue mt-5">Εμπορικές Κατηγορίες.</h2>
           </div>
           <div className="flex flex-col gap-6">
             {areas.map(a => (
