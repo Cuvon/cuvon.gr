@@ -44,7 +44,7 @@ export default function GrPartnersPage() {
         <div className="site-container">
           <div className="section-header">
             <SectionLabel>Με ποιους συνεργαζομαστε</SectionLabel>
-            <h2 className="text-h2 text-deep-blue mt-5">Ευθυγραμμισμένοι για Ανάπτυξη — Το Δίκτυο Εμπιστοσύνης μας.</h2>
+            <h2 className="text-[1.5rem] font-bold text-deep-blue mt-5" style={{whiteSpace:"nowrap"}}>Συνεργασία με Στόχο την Ανάπτυξη — Το Αξιόπιστο Δίκτυό μας.</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border border-deep-blue/10 rounded-brand overflow-hidden divide-x divide-y divide-deep-blue/10">
             {audience.map(a => (
