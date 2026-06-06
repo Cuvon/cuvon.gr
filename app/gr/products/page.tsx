@@ -97,7 +97,7 @@ export default function GrProductsPage() {
               </div>
               <div className="bg-light-grey rounded-brand border border-deep-blue/8 p-7">
                 <p className="text-[2rem] font-bold text-deep-blue mb-1.5">100%</p>
-                <p className="text-[0.875rem] text-slate-blue">Πλήρης due diligence σε κάθε κατασκευαστικό εταίρο πριν την ένταξη στο χαρτοφυλάκιο</p>
+                <p className="text-[0.875rem] text-slate-blue">Πλήρης αξιολόγηση κάθε παραγωγού/προμηθευτή πριν την ένταξη στο χαρτοφυλάκιο</p>
               </div>
             </div>
           </div>
